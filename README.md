@@ -28,7 +28,6 @@ eeg_project/
 - │ ├── svm_model.pkl # 학습된 SVM-RBF 모델
 - │ └── scaler.pkl # StandardScaler 정규화 기준
 - ├── dataset/ # EEG 데이터 (sub01~48_hi/lo.txt)
-- ├── requirements.txt
 - └── README.md
 
 # 시스템 구조
