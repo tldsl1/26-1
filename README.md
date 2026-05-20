@@ -20,13 +20,13 @@ AF3, F7, F3, FC5, T7, P7, O1, O2, P8, T8, FC6, F4, F8, AF4
 
 # 프로젝트 구조
 eeg_project/
-├── app.py # Streamlit 웹 인터페이스 
-├── model2.py # SVM 모델 로드 & predict() 함수
-├── train_svm.py # 모델 학습 & 저장 스크립트
-├── compare_ml_eegnet.py # LOSO 검증 (SVM vs EEGNet 비교)
-├── saved_model/
-│ ├── svm_model.pkl # 학습된 SVM-RBF 모델
-│ └── scaler.pkl # StandardScaler 정규화 기준
-├── dataset/ # EEG 데이터 (sub01~48_hi/lo.txt)
-├── requirements.txt
-└── README.md
+- ├── app.py # Streamlit 웹 인터페이스 
+- ├── model2.py # SVM 모델 로드 & predict() 함수
+- ├── train_svm.py # 모델 학습 & 저장 스크립트
+- ├── compare_ml_eegnet.py # LOSO 검증 (SVM vs EEGNet 비교)
+- ├── saved_model/
+- │ ├── svm_model.pkl # 학습된 SVM-RBF 모델
+- │ └── scaler.pkl # StandardScaler 정규화 기준
+- ├── dataset/ # EEG 데이터 (sub01~48_hi/lo.txt)
+- ├── requirements.txt
+- └── README.md
