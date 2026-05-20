@@ -30,3 +30,17 @@ eeg_project/
 - ├── dataset/ # EEG 데이터 (sub01~48_hi/lo.txt)
 - ├── requirements.txt
 - └── README.md
+
+# 시스템 구조
+- 원시 EEG 신호 (14채널, 128Hz)
+↓
+- 밴드패스 필터 (1~45Hz)
+↓
+- 에포킹 (2초 윈도우, 50% 오버랩)
+↓
+- 특징 추출 (154차원)
+↓
+- StandardScaler 정규화
+↓
+- SVM-RBF 분류 → Task / Resting 확률 출력
+
